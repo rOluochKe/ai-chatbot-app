@@ -10,6 +10,10 @@ Overall, the combination of Python, Flask, PyTorch, torchvision, and NLTK empowe
 
 ## Views
 
+<p align="center">
+  <img src="screenshots/capture1.PNG" width="800" />
+</p>
+
 ## Setup
 
 - Clone the project: `git@github.com:rOluochKe/ai-chatbot-app.git`
