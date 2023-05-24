@@ -12,10 +12,15 @@ Overall, the combination of Python, Flask, PyTorch, torchvision, and NLTK empowe
 
 ## Setup
 
-- Clone the project: `git@github.com:rOluochKe/food-truck-finder.git`
-- Change directory into : `cd /food-truck-finder`
+- Clone the project: `git@github.com:rOluochKe/ai-chatbot-app.git`
+- Change directory into : `cd /ai-chatbot-app`
 - Create your environment and install dependencies: `pip install -r requirements.txt`
-- Get api token for `MAPBOX_ACCESS_TOKEN` and `YOUR_DATASF_APP_TOKEN`
-- Run app: `python app.py`
-- Run tests: `python tests.py`
-- View api on: `http://127.0.0.1:5000/`
+- Install nltk package
+```
+$ (venv) python
+>>> import nltk
+>>> nltk.download('punkt')
+```
+- Modify `intents.json` with different intents and responses for your Chatbot
+- Run train: `python train.py` This will dump data.pth file. And then run
+- Run app: `python chat.py`
