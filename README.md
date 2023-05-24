@@ -11,7 +11,7 @@ Overall, the combination of Python, Flask, PyTorch, torchvision, and NLTK empowe
 ## Views
 
 <p align="center">
-  <img src="screenshots/capture1.PNG" width="800" />
+  <img src="screenshots/Capture1.PNG" width="800" />
 </p>
 
 ## Setup
